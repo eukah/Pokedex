@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:pokedex/commom/repositories/pokemon_reposity.dart';
-import 'package:pokedex/feature/pokedex/home/container/Home_Container.dart';
-import 'package:pokedex/feature/pokedex/screens/details/container/detail_container.dart';
+import 'package:pokedex/feature/pokedex/screens/home/container/Home_Container.dart';
+import 'details/container/detail_container.dart';
+
 
 class PokedexRoute extends StatelessWidget {
-  const PokedexRoute({Key? key, required this.repository}) : super(key: key);
+  const PokedexRoute({super.key, required this.repository});
   final PokemonRepository repository;
   @override
   Widget build(BuildContext context) {
@@ -35,6 +36,7 @@ class PokedexRoute extends StatelessWidget {
             },
           );
         }
+        return null;
       },
     );
   }

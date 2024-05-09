@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:pokedex/commom/models/pokemon.dart';
+import 'package:pokedex/feature/pokedex/screens/details/pages/widgets/detail_app_bar_widget.dart';
+import 'package:pokedex/feature/pokedex/screens/details/pages/widgets/detail_list_widget.dart';
 
 class DetailPage extends StatefulWidget {
   DetailPage({
